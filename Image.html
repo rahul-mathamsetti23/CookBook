@@ -1,0 +1,33 @@
+<html>
+<body>
+<ol type="1">
+{% for row  in img_url %}
+<li><img src={{row}} style="width:200px;height:200px;"></li>
+<br><br>
+{% endfor %}
+</ol>
+<ol type="1">
+{% for rows  in img_ingred %}
+<li>{{rows}}</li>
+{% endfor %}
+</ol>
+<ol type="1">
+{% for rows  in img_cal %}
+<li>{{rows}}</li>
+{% endfor %}
+</ol>
+<ol type="1">
+{% for rows  in img_status %}
+<li>{{rows}}</li>
+{% endfor %}
+</ol>
+<ol type="1">
+{% for rows  in img_name %}
+<li>{{rows}}</li>
+{% endfor %}
+</ol>
+<br><br>
+<p>Time:<p>{{diff}}
+
+</body>
+</html>
